@@ -1,74 +1,42 @@
-.grid, .grid-m {
+.grd {
 	overflow: hidden;	
 }
-.grid-m>[class^="c"], .grid>[class^="c"] {
+.grd>[class^="cl-"] {
 	float: left;
 }
-.grid-m>[class^="c"]:first-child {
-	margin-left: 1% !important;
+.cl-1 {
+	width: 8.333333333%;
 }
-.grid-m>[class^="c"] {
-	margin-left: 2%;
+.cl-2 {
+	width: 16.666666667%;
 }
-
-.c1 {
-	width: 10%;
+.cl-3 {
+	width: 25%;
 }
-.c2 {
-	width: 20%;
+.cl-4 {
+	width: 33.333333333%;
 }
-.c3 {
-	width: 30%;
+.cl-5 {
+	width: 41.666666666%;
 }
-.c4 {
-	width: 40%;
+.cl-6 {
+	width: 49.999999999%;
 }
-.c5 {
-	width: 50%;
+.cl-7 {
+	width: 58.333333332%;
 }
-.c6 {
-	width: 60%;
+.cl-8 {
+	width: 66.666666665%;
 }
-.c7 {
-	width: 70%;
+.cl-9 {
+	width: 74.999999998%;
 }
-.c8 {
-	width: 80%;
+.cl-10 {
+	width: 83.333333331%;
 }
-.c9 {
-	width: 90%;
+.cl-11 {
+	width: 91.666666664%;
 }
-.c10 {
+.cl-12 {
 	width: 100%;
-}
-
-.grid-m .c1 {
-	width: 8%;	
-}
-.grid-m .c2 {
-	width: 18%;
-}
-.grid-m .c3 {
-	width: 28%;
-}
-.grid-m .c4 {
-	width: 38%;
-}
-.grid-m .c5 {
-	width: 48%;
-}
-.grid-m .c6 {
-	width: 58%;
-}
-.grid-m .c7 {
-	width: 68%;
-}
-.grid-m .c8 {
-	width: 78%;
-}
-.grid-m .c9 {
-	width: 88%;
-}
-.grid-m .c10 {
-	width: 98%;
 }
