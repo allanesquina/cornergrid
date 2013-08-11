@@ -42,6 +42,10 @@ h3 {
 	background-color: #169856;
 	color: #fff;
 }
+.menu span {
+	font-size: 0.8em;
+	margin-left: 5px;
+}
 .qst div {
 	padding: 0px;
 	text-align: center;
@@ -63,14 +67,27 @@ h3 {
 	font-size: 1.2em;
 	font-weight: bold;
 	text-decoration: none;
+	position: relative;
 }
 .btn:hover {
 	background-color: #fff;
 	color:#222;
 }
+.btn:hover .size {
+	color:#222;	
+}
+.btn>.size{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: absolute;
+	bottom: 3px;
+	right: 10%;
+	color: #fff;
+	font-size: 0.5em;
+}
 .btn-copy {
 	background-color: #333;
 	color: #ccc;
+	display: none;
 }
 .container {
 	width: 90%;
@@ -89,15 +106,21 @@ h3 {
 .header small {
 	font-size: 0.3em;
 }
-h1 {
-	font-size: 4em;
+.header h1 {
+	
+	margin: 0px 0 0px 0;
 }
 
-.code .grd {
+h1 {
+	font-size: 4em;
+	margin: 60px 0 60px 0;
+}
+
+.code .rw {
 	padding: 10px;
 	text-align: center;
 }
-.code .grd>[class^="cl-"]{
+.code .rw>[class^="cl-"]{
 	background-color: #D8EBFF;
 	border-radius: 1px;
 	color:#5A727E;
@@ -108,7 +131,7 @@ h1 {
 	border:0px solid #fff;
 	box-sizing: border-box; 
 }
-.code .grd>[class^="cl-"]:nth-child(odd) {
+.code .rw>[class^="cl-"]:nth-child(odd) {
 	background-color: #fff;
 }
 .code {

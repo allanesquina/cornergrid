@@ -11,9 +11,10 @@
         <meta name="viewport"content="width=device-width, initial-scale=1">
         <link rel="stylesheet"href="css/normalize.css">
         <link rel="stylesheet"href="css/main.css">
-        <link href="css/core.css"rel="stylesheet"media="screen">
+        <link href="css/cornergrid.css"rel="stylesheet"media="screen">
         <link href="css/icones.css"rel="stylesheet"media="screen">
         <link href="css/styles.css"rel="stylesheet"media="screen">
+        <link type="text/css" rel="stylesheet" href="css/shCoreDefault.css"/>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -26,8 +27,8 @@
 
         <nav class="menu">
             <a href="#exemples"> Exemples <span class="icon-eye"></span></a>
-            <a href="#exemples">How to use <span class="icon-pencil"></span> </a>
-            <a href="#exemples">Source <span class="icon-github"></span></a>
+            <a href="#htu">How to use <span class="icon-pencil"></span> </a>
+            <a target="_blank" href="https://github.com/allanesquina/cornergrid">Source <span class="icon-github"></span></a>
             <a target="_blank" href="http://nofreakz.com"> About us <span class="icon-library"></span></a>
         </nav>
         <section>
@@ -44,13 +45,13 @@
                             <a class="btn btn-copy" href="#">
                                 <span>Copy to Clipboard</span>                          
                             </a>                        
-                            <a class="btn" href="#">
-                                Download V1.0.0 <span class="fs1" aria-hidden="true" data-icon="&#xe00d;"></span>
+                            <a class="btn" href="css/cornergrid.min.v1.0.0.css.zip">
+                                Download V1.0.0 <span class="fs1" aria-hidden="true" data-icon="&#xe00d;"></span> <span class="size">Only 343 bytes</span>
                             </a>
                         </nav>                
                     </div>
 
-                    <section class="qst grd">
+                    <section class="qst rw">
                         <div class="cl-4">
                             <h3>What is?</h3>
                              <p>Corner Grid is a simple and fast CSS3 grid system that helps you organize your layout using simple classes.</p>
@@ -69,77 +70,112 @@
             </header>
             <section>
                 <header>
-                    <h1 id="exemples">Exemples</h1>
-                   
-                    <p> </p>
+                    <h1 id="exemples">Exemples <span class="icon-eye"></span></h1>    
                 </header>
 
                 <section class="code">
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-1"><p>cl-1</p></div>   
                         <div class="cl-11"><p>cl-11</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-2"><p>cl-2</p></div>   
                         <div class="cl-10"><p>cl-10</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-3"><p>cl-3</p></div>   
                         <div class="cl-9"><p>cl-9</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-4"><p>cl-4</p></div>   
                         <div class="cl-8"><p>cl-8</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-5"><p>cl-5</p></div>   
                         <div class="cl-7"><p>cl-7</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-6"><p>cl-6</p></div>   
                         <div class="cl-6"><p>cl-6</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-7"><p>cl-7</p></div>   
                         <div class="cl-5"><p>cl-5</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-8"><p>cl-8</p></div>   
                         <div class="cl-4"><p>cl-4</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-9"><p>cl-9</p></div>   
                         <div class="cl-3"><p>cl-3</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-10"><p>cl-10</p></div>
                         <div class="cl-2"><p>cl-2</p></div>
                     </div>
-                      <div class="grd">
+                      <div class="rw">
                         <div class="cl-11"><p>cl-11</p></div>
                         <div class="cl-1"><p>cl-1</p></div>
                     </div>
-                    <div class="grd">
+                    <div class="rw">
                         <div class="cl-12"><p>cl-12</p></div>                
                     </div>
-                    <h1>Variations</h1>
-                    <div class="grd">
+                    <h1 id="htu">How to Use <span class="icon-pencil"></span></h1>
+                    <pre class="brush: html;">
+                        <div class="rw">
+                            <div class="cl-2"><p>cl-2</p></div>   
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-7"><p>cl-7</p></div>
+                            <div class="cl-2"><p>cl-2</p></div>
+                        </div> 
+                    </pre>
+                   
+                    <div class="rw">
                         <div class="cl-2"><p>cl-2</p></div>   
                         <div class="cl-1"><p>cl-1</p></div>
                         <div class="cl-7"><p>cl-7</p></div>
                         <div class="cl-2"><p>cl-2</p></div>
-                    </div>      
-                    <div class="grd">
+                    </div>  
+                    <pre class="brush: html;">
+                        <div class="rw">
+                            <div class="cl-4"><p>cl-4</p></div>   
+                            <div class="cl-4"><p>cl-4</p></div>
+                            <div class="cl-4"><p>cl-4</p></div>                   
+                        </div> 
+                    </pre>
+                    <div class="rw">
                         <div class="cl-4"><p>cl-4</p></div>   
                         <div class="cl-4"><p>cl-4</p></div>
                         <div class="cl-4"><p>cl-4</p></div>                   
                     </div> 
-                    <div class="grd">
+                    <pre class="brush: html;">
+                        <div class="rw">
+                            <div class="cl-4"><p>cl-4</p></div>
+                            <div class="cl-4"><p>cl-4</p></div>               
+                        </div>
+                    </pre>
+                    <div class="rw">
                         <div class="cl-4"><p>cl-4</p></div>   
-                        <div class="cl-4"><p>cl-4</p></div>
-                        
+                        <div class="cl-4"><p>cl-4</p></div>                        
                     </div> 
-                    <div class="grd">
+                    <pre class="brush: html;">
+                        <div class="rw">
+                            <div class="cl-1"><p>cl-1</p></div>   
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-1"><p>cl-1</p></div>   
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-1"><p>cl-1</p></div>   
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-1"><p>cl-1</p></div>
+                            <div class="cl-1"><p>cl-1</p></div>
+                        </div>
+                    </pre>
+                    <div class="rw">
                         <div class="cl-1"><p>cl-1</p></div>   
                         <div class="cl-1"><p>cl-1</p></div>
                         <div class="cl-1"><p>cl-1</p></div>
@@ -158,8 +194,10 @@
         </section>
             
         <footer class="footer">
-            © Allan Esquina - <a target="_blank" href="http://nofreakz.com">noFreakz.com </a>
+            @allanesquina - <a target="_blank" href="http://nofreakz.com">noFreakz.com </a>
         </footer>
-        
+    <script type="text/javascript" src="scripts/shCore.js"></script>
+    <script type="text/javascript" src="scripts/shBrushXml.js"></script>
+    <script type="text/javascript">SyntaxHighlighter.all();</script>
     </body>
 </html>
