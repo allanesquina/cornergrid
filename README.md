@@ -10,4 +10,4 @@ Corner Grid is a simple and fast CSS3 grid system that helps you organize your l
 ##Live Demo
 
 
-You can see the script running <a href="http://allanesquina.github.io/cornergrid/" target="_blank">here</a>.
+You can see a live demo <a href="http://allanesquina.github.io/cornergrid/" target="_blank">here</a>.
