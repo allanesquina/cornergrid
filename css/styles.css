@@ -145,3 +145,14 @@ h1 {
 	color: #999;
 	margin-top: 50px;
 }
+.git {
+	color: #999;
+	text-decoration: none;
+}
+.nfz {
+	color: #555;
+	text-decoration: none;
+}
+.git:hover, .nfz:hover {
+	color:#fff;
+}
