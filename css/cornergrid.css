@@ -40,3 +40,8 @@
 .cl-12 {
 	width: 100%;
 }
+@media screen and (max-width: 720px) {
+	.rw>[class^="cl-"] {
+		width: 100%;
+	}
+}

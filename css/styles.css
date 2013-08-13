@@ -2,7 +2,6 @@
 	margin:0;
 	padding:0;
 }
-
 body {
 	background-color: #9FCACE;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -110,7 +109,6 @@ h3 {
 	
 	margin: 0px 0 0px 0;
 }
-
 h1 {
 	font-size: 4em;
 	margin: 60px 0 60px 0;
@@ -155,4 +153,20 @@ h1 {
 }
 .git:hover, .nfz:hover {
 	color:#fff;
+}
+@media screen and (max-width: 820px) {
+	.menu a {
+		font-size: 0.8em;
+		padding: 0 10px 0 10px;
+		margin-right: 0px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.menu {		
+		height: auto;
+	}
+	.menu a{
+		font-size: 1em;
+		width:100%;
+	}
 }
